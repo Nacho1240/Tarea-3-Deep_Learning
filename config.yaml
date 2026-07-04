@@ -1,0 +1,13 @@
+topic: "reseñas de auriculares inalámbricos y altavoces portátiles"
+context: |
+  Genera reseñas cortas en español de productos tecnológicos, centradas en experiencia de uso, calidad de sonido, comodidad, duración de batería y diseño.
+models:
+  - name: llama
+    local_path: "./models/llama"
+  - name: phi
+    local_path: "./models/phi"
+  - name: mistral
+    local_path: "./models/mistral"
+num_examples_per_model: 20
+output_root: "./data"
+seed: 42
